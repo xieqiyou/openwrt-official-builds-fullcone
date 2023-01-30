@@ -60,7 +60,7 @@ CURR_VERMAGIC=$(cat build_dir/target-*/linux-*/linux-*/.vermagic)
   exit 1
 }
 
-make package/linux/compile -j$(nproc)
+make package/nft-fullcone/compile -j$(nproc)
 
 make package/nft-fullcone/compile -j$(nproc)
 make package/libnftnl/compile -j$(nproc)
