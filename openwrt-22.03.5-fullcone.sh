@@ -1,5 +1,4 @@
 #!/bin/sh -e
-1ddd
 OPENWRT_REPO="https://github.com/openwrt/openwrt.git"
 OPENWRT_DL="https://downloads.cdn.openwrt.org"
 
